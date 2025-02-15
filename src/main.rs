@@ -9,6 +9,7 @@ mod ownr_brrw;
 pub mod donut;
 pub mod error_handling;
 mod area_rect_structs;
+mod swaping;
 
 fn main() {
     // // Example: Calling modules to solve various tasks
@@ -51,7 +52,7 @@ fn main() {
     // println!("\n13. Display product table of a given number:");
     // math::multiplication_table();
 
-    println!("hello world");
+    // println!("hello world");
 
     // practice::varbl();
     // practice::shadowing();
@@ -68,10 +69,13 @@ fn main() {
     // ownr_brrw::egs();
 
     //structs mods traits
-    area_rect_structs::rect_structs();
+    // area_rect_structs::rect_structs();
 
     //error_handling
     // error_handling::err_handling();
+
+    //swaping
+    swaping::swap();
 
     //donut.rs
     // let mut a = 0.0;

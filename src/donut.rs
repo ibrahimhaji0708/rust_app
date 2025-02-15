@@ -41,7 +41,7 @@ pub fn render_frame(a: f32, b: f32) {
             let circle_x = R2 + R1 * cos_theta;
             let circle_y = R1 * sin_theta;
 
-            let x = circle_x * (cos_b * cos_phi + sin_a * sin_b * sin_phi) - circle_y * cos_a * sin_b;
+            let x = circle_x * (cos_b * cos_phi + sin_a * sin_b * sin_phi) - circle_y * cos_a * sin_b;//6
             let y = circle_x * (sin_b * cos_phi - sin_a * cos_b * sin_phi) + circle_y * cos_a * cos_b;
             let z = K2 + cos_a * circle_x * sin_phi + circle_y * sin_a;
             let ooz = 1.0 / z;
