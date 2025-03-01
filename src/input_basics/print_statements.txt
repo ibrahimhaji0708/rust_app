@@ -1,0 +1,38 @@
+// println!("1. Accept radius and print its value:");
+    // math::calculate_circle_properties();
+
+    // println!("\n2. Accept marks of 5 subjects and calculate percentage:");
+    // math::calculate_percentage();
+
+    // println!("\n3. Accept a character and print its ASCII value:");
+    // utils::ascii_value();
+
+    // println!("\n4. Convert a string to uppercase or lowercase:");
+    // utils::convert_case();
+
+    // println!("\n5. Sum of numbers from 1 to n:");
+    // math::sum_upto_n();
+
+    // println!("\n6. Reverse 5 strings:");
+    // utils::reverse_strings();
+
+    // println!("\n7. Calculate surface area and volume of a box:");
+    // math::box_properties();
+
+    // println!("\n8. Convert Celsius to Fahrenheit and Kelvin:");
+    // conversions::temperature_conversion();
+
+    // println!("\n9. Check if a number is an Armstrong number:");
+    // utils::check_armstrong();
+
+    // println!("\n10. Print all even or odd numbers from 1 to 100:");
+    // math::print_even_or_odd();
+
+    // println!("\n11. Print all prime numbers from 1 to 100:");
+    // math::print_primes();
+
+    // println!("\n12. Print the first 13 terms of the Fibonacci series:");
+    // math::fibonacci_series();
+
+    // println!("\n13. Display product table of a given number:");
+    // math::multiplication_table();
