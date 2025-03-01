@@ -1,6 +1,7 @@
 // use std::{thread, time::Duration};
 // use donut::render_frame;
 
+
 // mod math;
 // mod conversions;
 // mod utils;
@@ -10,6 +11,9 @@ pub mod donut;
 pub mod error_handling;
 mod area_rect_structs;
 mod swaping;
+// mod hello_world;
+
+pub mod garden;
 
 fn main() {
     // // Example: Calling modules to solve various tasks
@@ -75,7 +79,7 @@ fn main() {
     // error_handling::err_handling();
 
     //swaping
-    swaping::swap();
+    // swaping::swap();
 
     //donut.rs
     // let mut a = 0.0;
