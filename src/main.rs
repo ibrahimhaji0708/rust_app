@@ -27,5 +27,6 @@ fn main() {
     // lifetimes::lifetimes::lifetimes();
 
     //vectors
+    vector_vec::enums();
 }
 
