@@ -5,6 +5,7 @@
 mod swaping;
 mod lifetimes;
 mod adv_basics;
+mod vector_vec;
 
 
 fn main() {
@@ -23,11 +24,8 @@ fn main() {
     // }
 
     //lifetimes
-    lifetimes::lifetimes::lifetimes();
+    // lifetimes::lifetimes::lifetimes();
 
-    //adv-basics
-    adv_basics::fridge_operations();
-    // adv_basics::fridge::cooler::Cooler();
-    // adv_basics::fridge::freezer::Freezer();
+    //vectors
 }
 
