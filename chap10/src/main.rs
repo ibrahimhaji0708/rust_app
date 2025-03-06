@@ -1,3 +1,5 @@
+pub mod chap10mods;
+
 fn main() {
-    println!("Hello, world!");
+    chap10mods::number_list::number_lists();
 }
