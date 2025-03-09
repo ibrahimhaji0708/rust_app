@@ -1,3 +1,5 @@
+use std::fmt::Display;
+
 struct Pair<T> {
     x: T,
     y: T,
@@ -19,4 +21,4 @@ impl<T: Display + PartialOrd> Pair<T> {
     }
 }
 
-fn rust_code_more() {}
+pub fn rust_code_more() {}
