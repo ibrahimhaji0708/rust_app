@@ -11,6 +11,12 @@ pub fn rect_closures() {
         Rectangle { width: 7, height: 12 },
     ];
 
-    list.sort_by_key(|r| r.width);
-    println!("{list:#?}");
+    let mut num_sort_operations = 0;
+    let _value = String::from("closure called..");
+
+    list.sort_by_key(|r| {
+        num_sort_operations += 1;
+        r.width
+    });
+    println!("{list:#?}, sorted in {num_sort_operations} operations..");
 }
